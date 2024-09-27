@@ -1,6 +1,7 @@
 import glob
 from os import path
 
+print("Iniciando o programa...")
 conteudo = glob.glob("/home/rcls/codigos/git-projects/introducao-programacao/*")
 for caminho in conteudo: 
     if path.isfile(caminho):
